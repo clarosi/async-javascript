@@ -107,3 +107,31 @@
 // var addToSix = createBase(6);
 // console.log(addToSix(10)); // returns 16
 // console.log(addToSix(21)); // returns 27
+
+// var x = { a: 1, b: 2 };
+// var y = x;
+// y.a = 42;
+// delete y.b;
+// console.log(y.a, y.b);
+
+// const ary = [];
+// ary.push('10');
+// ary[10] = '10';
+// ary[5] = '5';
+// console.log(ary.length);
+
+// const promise = new Promise((resolve, reject) => {
+//   resolve(10);
+//   resolve(20);
+//   console.log('promise.');
+// });
+
+// const { a, b, ...rest } = { a: 1, b: 2, c: 3, d: 4 };
+// console.log(a);
+// console.log(b);
+// console.log(rest);
+
+// const [a, b, ...rest] = [1, 2, 3, 4];
+// console.log(a);
+// console.log(b);
+// console.log(rest);
